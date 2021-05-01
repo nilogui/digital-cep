@@ -1,0 +1,23 @@
+{
+    "name": "max3d/digital-cep",
+    "description": "Busca de CEP online",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nilogui",
+            "email": "nilogui@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "Max3d\\DigitalCep\\": "src/"
+        }    
+    }
+}
